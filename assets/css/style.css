@@ -340,8 +340,19 @@ p {
   background-color: var(--color-29);
 }
 
+.commen-icons,
+.insta-icons {
+  transition: all 200ms linear !important;
+}
+
 ::-webkit-scrollbar {
   display: none;
+}
+
+.sub-footer {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(130.88deg, #a854e9 -9.14%, #4f91fc 283.16%);
 }
 
 /*---------------------------------------------- hover ------------------------------------------------------*/
@@ -557,7 +568,7 @@ p {
   }
 
   .mt-sm-100 {
-    margin-top: 100px !important;
+    margin-top: 100px;
   }
 
   .mb-sm-42 {
