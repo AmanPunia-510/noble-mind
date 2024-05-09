@@ -1,0 +1,631 @@
+@import url("./css/root.css");
+
+/*----------------------------------------- all spacing classes --------------------------------------------*/
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.pr-52 {
+  padding-right: 52px;
+}
+
+.pl-52 {
+  padding-left: 52px;
+}
+
+.pl-80 {
+  padding-left: 80px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.mw-119 {
+  max-width: 119px;
+}
+
+.mw-397 {
+  max-width: 397px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.pr-5 {
+  padding-right: 5px !important;
+}
+
+.pl-5 {
+  padding-left: 5px !important;
+}
+
+.pl-30 {
+  padding-left: 30px !important;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.mb-42 {
+  margin-bottom: 42px;
+}
+
+.top-10 {
+  top: 10px;
+}
+
+/*-------------------------------------- some commen things in all section ---------------------------------*/
+
+.commen-btn {
+  border: none;
+  outline: none;
+}
+
+.mw-948 {
+  max-width: 948px;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/*-------------------------------------------------- header -------------------------------------------------*/
+
+.header {
+  background-image: url(../images/png/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-btn {
+  height: 56px;
+  width: 169px;
+  border-radius: 61px;
+}
+
+.navbar {
+  padding: 0;
+  padding-top: 18px;
+}
+
+.menubar {
+  height: 56px;
+  width: 42px;
+}
+
+.menubar span {
+  border-radius: 5px;
+  height: 7px;
+  width: 100%;
+  background: var(--btn-gradient);
+}
+
+.main-h span {
+  background: var(--btn-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-h {
+  margin-top: 44px;
+}
+
+.main-p {
+  padding-top: 16px;
+}
+
+.header-blur-card {
+  left: 50%;
+  z-index: 2;
+  bottom: 52px;
+  padding: 22px 32px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background: var(--btn-gradient);
+  backdrop-filter: blur(20px);
+}
+
+.header-lt {
+  top: 23px;
+  left: 0;
+}
+
+.header-rb {
+  bottom: -47px;
+  right: 0px;
+}
+
+.header-img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.start-btn {
+  width: 174px;
+  height: 56px;
+  border-radius: 61px;
+}
+
+.plus-txt {
+  position: relative;
+  bottom: 7px;
+}
+/*-------------------------------------- our misson section-1 -------------------------------------------------*/
+
+.middle-svg-sec1 {
+  top: 50%;
+  left: 50%;
+  width: 88px;
+  height: 88px;
+  border-radius: 50px;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  background-color: var(--white-color);
+  box-shadow: 0px 0px 17.69px 0px var(--svg-shadow);
+}
+
+.svg-bg-ellipse {
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+}
+
+.sec1-h,
+.sec2-h,
+.sec3-h span {
+  background: var(--btn-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec1-p {
+  max-width: 559px;
+}
+
+.read-btn {
+  width: 167px;
+  height: 56px;
+  border-radius: 61px;
+}
+
+/*--------------------------------------- our vission section-2 ----------------------------------------------*/
+
+.sec2-box {
+  padding-right: 22px !important;
+  transition: all 200ms linear;
+  border-radius: 16px;
+}
+.sec2-box {
+  position: relative;
+}
+.sec2-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 1px;
+  background: var(--btn-gradient);
+  -webkit-mask: var(--sec2-box-webkit);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.right-tick {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: var(--color-ef);
+}
+
+.sec2-img {
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/*--------------------------------------- our service section-3 -----------------------------------------------*/
+
+.sec3-box {
+  border: 0.5px solid var(--sec3-box);
+  background-color: var(--color-ef);
+  padding: 20px;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.sec3-svg-box {
+  width: 72px;
+  height: 72px;
+  background-color: var(--sec3-svg);
+  padding: 14.82px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.sec3-p {
+  max-width: 324px;
+}
+
+.section3 {
+  background-image: url(../images/png/service-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*------------------------------------------- choose us section-4 -------------------------------------------------*/
+
+.sec4-box {
+  border: 0.5px solid var(--sec3-box);
+  background-color: var(--white-color);
+  border-radius: 16px;
+  height: 100%;
+}
+
+.choose {
+  right: 0;
+  top: -278px;
+}
+
+/*-------------------------------------------- company section-5 ---------------------------------------------*/
+
+.sec5-img {
+  max-width: 212px;
+}
+
+.section5 {
+  background-image: url(../images/png/company-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--------------------------------------------- section-6 -----------------------------------------------------*/
+
+.sec6-box {
+  background-image: url("../images/png/sec6.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 380px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+}
+
+.sec6-p {
+  max-width: 820px;
+}
+
+.txt-gradient {
+  color: var(--color-9A);
+}
+
+/*--------------------------------------------- footer --------------------------------------------------------*/
+
+.commen-icons {
+  width: 32px;
+  height: 32px;
+  padding: 6.65px;
+  border-radius: 50%;
+  background-color: var(--color-29);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*---------------------------------------------- hover ------------------------------------------------------*/
+
+/* btns hover */
+.commen-btn {
+  position: relative;
+}
+
+.commen-btn:hover {
+  background: transparent;
+  color: var(--blr1-gradient);
+  transition: all 200ms linear;
+  box-shadow: 0px 0px 10px var(--color-9A);
+}
+
+.commen-btn:active {
+  transform: scale(0.9);
+}
+
+.commen-btn:hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 61px;
+  padding: 1px;
+  background: transparent;
+  background: var(--btn-gradient);
+  -webkit-mask: var(--sec2-box-webkit);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* navbar hover */
+
+.nav-list a {
+  position: relative;
+}
+
+.nav-list a:hover {
+  -webkit-text-stroke: thin;
+  color: var(--black-color);
+}
+
+.nav-list a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--color-9A);
+  transition: all 200ms linear;
+  height: 2px;
+  width: 0%;
+}
+
+.nav-list a:hover::after {
+  width: 100%;
+}
+
+/* sec2-box hover */
+
+.sec2-box:hover {
+  background: var(--white-color);
+  cursor: pointer;
+  box-shadow: inset 4px 3px 6px var(--sec2-box-hover);
+}
+
+.sec3-box:hover {
+  border: 1px solid transparent;
+  box-shadow: 0px 9px 50px 0px var(--sec3-box-hover);
+}
+
+.sec3-box:hover svg path {
+  fill: var(--white-color);
+}
+
+/* section 4 hover */
+
+.sec4-box:hover {
+  box-shadow: 0px 9px 50px 0px var(--sec3-box-hover);
+}
+
+/* section 5 hover */
+
+.sec5-img {
+  cursor: pointer;
+}
+
+/* footer hover effects */
+
+.linkdin-icons:hover {
+  background-color: var(--linkdin);
+}
+
+.linkdin-icons:hover svg path,
+.facebook-icons:hover svg path,
+.insta-icons:hover svg path {
+  fill: var(--white-color);
+}
+
+.facebook-icons:hover {
+  background-color: var(--facebook-bg);
+}
+
+.insta-icons:hover {
+  background: linear-gradient(
+    115deg,
+    var(--insta1),
+    var(--insta2),
+    var(--insta3)
+  );
+}
+
+.footer-list a:hover {
+  color: var(--white-color);
+  -webkit-text-stroke: thin;
+}
+
+.footer-hover:hover {
+  color: var(--white-color);
+  -webkit-text-stroke: thin;
+}
+
+@media (min-width: 1200px) {
+  .header-lt {
+    top: 20px;
+    left: -46px;
+  }
+
+  .header-rb {
+    bottom: -47px;
+    right: -47px;
+  }
+}
+
+@media (min-width: 992px) {
+  .position-lg-absolute {
+    position: absolute;
+  }
+
+  .header-blur-card {
+    border-radius: 12px;
+    transform: translate(-50%);
+    background: var(--blr1-gradient);
+  }
+
+  .header-img {
+    border-radius: 12px;
+  }
+
+  .border-lg-blr {
+    border-right: 1px solid var(--white-color);
+  }
+
+  .mw-lg-510 {
+    max-width: 510px;
+  }
+
+  .sec3-box {
+    max-width: 364px;
+    min-height: 270px;
+  }
+
+  .pl-lg-40 {
+    padding-left: 40px !important;
+  }
+
+  .footer-p {
+    max-width: 385px;
+  }
+}
+
+@media (min-width: 768px) {
+  .py-md-152 {
+    padding-top: 152px !important;
+    padding-bottom: 152px !important;
+  }
+
+  .mt-md-152 {
+    margin-top: 152px !important;
+  }
+
+  .py-md-120 {
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+  }
+
+  .misson-right {
+    right: 0;
+    top: -31%;
+  }
+
+  .misson-left {
+    top: 64px;
+    left: 0;
+  }
+
+  .visson-right {
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .border-sm-blr {
+    border-right: 1px solid var(--white-color);
+  }
+
+  .py-sm-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .mt-sm-100 {
+    margin-top: 100px !important;
+  }
+
+  .mb-sm-42 {
+    margin-bottom: 42px !important;
+  }
+
+  .mt-sm-45 {
+    margin-top: 45px !important;
+  }
+
+  .pt-sm-67 {
+    padding-top: 67px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-blur-card {
+    padding: 12px;
+  }
+
+  .middle-svg-sec1 {
+    width: 68px;
+    height: 68px;
+  }
+
+  .sec1-p {
+    padding-top: unset;
+  }
+
+  .sec6-h {
+    line-height: var(--lh-110);
+  }
+
+  .m-btn {
+    margin-top: 24px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .svg-ellipse {
+    width: 100%;
+  }
+
+  .sec2-main-p {
+    font-weight: var(--fw-600);
+    padding: unset;
+  }
+}
+
+@media (max-width: 991.9px) {
+  .navbar-items {
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    left: -100%;
+    height: 100vh;
+    position: fixed;
+    background: var(--white-color);
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.4s linear;
+  }
+
+  .left-0 {
+    left: 0;
+  }
+
+  .menubar {
+    z-index: 5;
+  }
+}
